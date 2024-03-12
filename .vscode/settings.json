@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "*.html": "django-html",
+        "iosfwd": "cpp",
+        "array": "cpp",
+        "bitset": "cpp",
+        "initializer_list": "cpp",
+        "regex": "cpp",
+        "utility": "cpp",
+        "valarray": "cpp",
+        "iostream": "cpp"
+    }
+}
