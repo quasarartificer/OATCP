@@ -1,0 +1,15 @@
+# Algorithm : 
+- The obtainInputs function takes the input string (s) and an empty vector (inputs) to store the extracted numbers.
+- It iterates through each character in the string (s):
+- If the character is a digit, it converts it to a number by subtracting '0' from its ASCII value and accumulates it in a temporary variable num.
+- If the character is a space or the end of the string is reached, it signifies the end of a number.
+- The accumulated number (num) is then added to the inputs vector.
+- The LargestNumber function takes the vector of integers (inputs) as input.
+- It creates a new vector nums to store the string representations of the numbers in inputs. This is done using to_string(inputs[i]) for each element.
+- The function sorts the nums vector using a custom comparison function.
+- This custom function ([](string a, string b) { ... })) compares two strings (a and b) to determine their order in the sorted list.
+- The comparison logic prioritizes strings that would create a larger number when concatenated. It achieves this by comparing (a+b) with (b+a).
+- If (a+b) > (b+a), then a should come before b in the sorted list (because concatenating a and b creates a larger number).
+- By using this custom sorting, the function ensures numbers that would contribute to a larger overall number appear earlier in the sorted list.
+- After sorting, the function iterates through the nums vector and appends each string (representing a number) to a result string (result).
+- The final result string contains the numbers from the input arranged to form the largest possible number based on the custom sorting logic.
