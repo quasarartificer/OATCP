@@ -1,8 +1,3 @@
-/*
-Problem Name: Count Subgrids
-Author: Vineet Motwani
-*/
-
 #include <bits/stdc++.h>
 using namespace std;
 

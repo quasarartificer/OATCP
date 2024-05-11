@@ -1,8 +1,3 @@
-/*
-Problem Name: Maximum Flow
-Author: Vineet Motwani
-*/
-
 #include <bits/stdc++.h>
 using namespace std;
 

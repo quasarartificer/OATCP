@@ -1,8 +1,3 @@
-/*
-Problem Name: Patching Array
-Author: Vineet Motwani
-*/
-
 #include <bits/stdc++.h>
 using namespace std;
 

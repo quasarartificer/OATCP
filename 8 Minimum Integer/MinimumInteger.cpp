@@ -1,8 +1,3 @@
-/*
-Problem Name: Minimum Integer
-Author: Vineet Motwani
-*/
-
 #include <bits/stdc++.h>
 using namespace std;
 
